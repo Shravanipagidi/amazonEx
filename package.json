@@ -1,0 +1,25 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "LearningExecuteTestOnChromeHeaded": "npx cypress run --spec ./cypress/e2e/validation/CheckboxEx.spec.cy.js --browser chrome --headed --record --key 5f4d7ef1-718a-4b4b-8e79-62a751920906 --browser chrome --headed",
+     "ExerciseExample": "npx cypress run --spec ./cypress/e2e/Exercise/hrmLogin.spec.cy.js --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress": "^13.6.2"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1",
+    "file": "^0.2.2",
+    "upload": "^1.3.2"
+  },
+  "description": ""
+}
